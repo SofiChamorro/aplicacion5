@@ -54,8 +54,7 @@ page_bg_img = """
     background-attachment: fixed;
 }
 .block-container {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85)
     border-radius: 10px;
 }
 </style>
