@@ -44,6 +44,28 @@ remove_files(7)
 
 
 st.title("Reconocimiento Óptico de Caracteres")
+# Fondo personalizado con CSS
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+[data-testid="stSidebar"] {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.block-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
 
 cam_ = st.checkbox("Usar Cámara")
