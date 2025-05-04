@@ -53,9 +53,6 @@ page_bg_img = """
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-[data-testid="stSidebar"] {
-    background-color: rgba(255, 255, 255, 0.8);
-}
 .block-container {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 2rem;
