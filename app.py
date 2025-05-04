@@ -39,11 +39,7 @@ def remove_files(n):
 
 
 remove_files(7)
-  
 
-
-
-st.title("Reconocimiento Óptico de Caracteres")
 # Fondo personalizado con CSS
 page_bg_img = """
 <style>
@@ -65,6 +61,9 @@ page_bg_img = """
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+st.title("Reconocimiento Óptico de Caracteres")
+
 
 
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
